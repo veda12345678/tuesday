@@ -3,3 +3,4 @@
   RUN  apt-get install -y apache2 curl net-tools
   COPY ./index.html /var/www/html/index.html
   ENTRYPOINT apachectl -D FOREGROUND
+  ok finish
